@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="dark" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +7,21 @@
     <title>TailwindCss</title>
     <link rel="stylesheet" href="./output/tailwind.css">
 </head>
-<body class="h-screen flex items-center justify-center bg-gray-100">
-    <div class="max-w-sm mx-auto p-8 bg-white rounded-xl shadow-md space-y-2 sm:flex sm:items-center sm:py-4 sm:space-y-0 sm:space-x-6">
-        <img class=" h-50 mx-auto rounded-full ring-4 ring-orange-200 sm:mx-0 sm:flex-shrink-0 transform hover:scale-105 duration-500" 
+<body class="h-screen flex items-center 
+justify-center bg-gray-100 dark:bg-gray-900">
+    <div class="max-w-sm mx-auto p-8 bg-white rounded-xl shadow-md space-y-2 sm:flex sm:items-center 
+    sm:py-4 sm:space-y-0 sm:space-x-6 dark:bg-gray-800 sm:dark:hover:bg-gray-700">
+        <img class=" h-50 mx-auto rounded-full ring-4 ring-orange-200 
+        sm:mx-0 sm:flex-shrink-0 transform hover:scale-105 duration-500" 
         src="./Images/User.jpg" alt="User Logo" height="200px" width="200 px">
         <div class="text-center space-y-2 sm:text-left">
             <div class="space-y-0.5">
-                <p class=" text-lg text-black font-semibold ">Samiha Hossain</p>
-                <p class="text-gray-500 font-medium ">Personal Website</p>
+                <p class=" text-lg text-black font-semibold dark:text-gray-300">Samiha Hossain</p>
+                <p class="text-gray-500 font-medium dark:text-gray-400">Personal Website</p>
             </div>
-            <button class=" px-4 py-1 border border-red-400 rounded-full text-sm font-semibold text-red-700 
-             hover:text-white hover:bg-red-700 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2">Visit Now</button>
+            <button class=" px-4 py-1 border border-red-400 
+            rounded-full text-sm font-semibold text-red-700 hover:text-white hover:bg-red-700 hover:border-transparent 
+             focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2 dark:text-red-300 dark:focus:ring-offset-gray-800">Visit Now</button>
         </div>
     </div>
 </body>
