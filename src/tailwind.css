@@ -1,8 +1,7 @@
-@tailwind base;
+/*@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/*group utilities*/
 @layer components {
     .btn {
       @apply px-4 py-1 border rounded-full text-sm font-semibold focus:outline-none 
@@ -29,3 +28,15 @@
       font-size: 6px;
     }
   }
+  */
+
+  /*@varients hover,focus {
+  rotate-0 {
+    transform: rotate(0deg);
+  }
+}*/
+@screen sm {
+  .bg-gradient-brand {
+    background-image: linear-gradient(blue, green);
+  }
+}
