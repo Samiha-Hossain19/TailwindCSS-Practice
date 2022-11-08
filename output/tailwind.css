@@ -36,8 +36,12 @@
   }
 }*/
 
-@media (min-width: 640px) {
+/*@screen sm {
   .bg-gradient-brand {
     background-image: linear-gradient(blue, green);
   }
+}*/
+
+.content-area {
+  height: calc(100vh - 3rem);
 }
