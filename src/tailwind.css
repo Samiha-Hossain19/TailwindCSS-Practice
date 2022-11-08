@@ -1,7 +1,8 @@
-/*@tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/*
 @layer components {
     .btn {
       @apply px-4 py-1 border rounded-full text-sm font-semibold focus:outline-none 
@@ -42,7 +43,7 @@
 .content-area {
   height: calc(100vh - theme("spacing.12"));
 }
-*/
+
 .text-body {
   font-size: 2rem;
 }
@@ -57,4 +58,8 @@ input:-ms-input-placeholder {
 
 input::placeholder {
   color: gray;
+}
+*/
+.text-body {
+  @apply text-white;
 }
