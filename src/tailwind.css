@@ -34,12 +34,27 @@
   rotate-0 {
     transform: rotate(0deg);
   }
-}*/
-/*@screen sm {
+@screen sm {
   .bg-gradient-brand {
     background-image: linear-gradient(blue, green);
   }
-}*/
+}
 .content-area {
   height: calc(100vh - theme("spacing.12"));
+}
+*/
+.text-body {
+  font-size: 2rem;
+}
+
+input::-moz-placeholder {
+  color: gray;
+}
+
+input:-ms-input-placeholder {
+  color: gray;
+}
+
+input::placeholder {
+  color: gray;
 }
